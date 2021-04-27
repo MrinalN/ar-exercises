@@ -18,4 +18,6 @@ gastown = Store.create(name: "Gastown", annual_revenue: 190000, mens_apparel: tr
 
 gastown.save
 
+#outputs count of stores to ensure all added
+puts Store.count
 
