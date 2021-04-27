@@ -16,5 +16,4 @@ puts "----------"
 
 
 @store1 = Store.find_by(id: 1)
-@store1.name = 'Kits'
-@store1.save
+@store1.update(name: "Kerrisdale")
